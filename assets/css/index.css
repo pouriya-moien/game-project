@@ -5,7 +5,7 @@
   --var-danger-color:rgb(148, 31, 31);
 }
 .game {
-  background: var(--dark-color);
+  background: var(--bg-light);
   width: 1000px;
   height: 1000px;
   position: relative;
