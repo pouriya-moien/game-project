@@ -52,3 +52,9 @@
   position: relative;
   z-index: 9999;
 }
+
+.btn {
+  width: 140px;
+  margin-right: 60px;
+  margin-top: 90px;
+}
