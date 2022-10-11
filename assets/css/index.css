@@ -1,3 +1,9 @@
+:root {
+  --dark-color :#070606;
+  --bg-light :#efefef;
+  --light-color :#d7e4d9;
+  --var-danger-color:rgb(148, 31, 31);
+}
 .game {
   background: #efefef;
   width: 1000px;
