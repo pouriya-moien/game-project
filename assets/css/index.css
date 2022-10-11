@@ -37,3 +37,6 @@
   cursor: pointer;
   z-index: 100;
 }
+.move {
+  transform: translateY(120vh);
+}
