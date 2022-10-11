@@ -8,9 +8,9 @@ function random(min,max){
 
 function setBG(){
     if (Math.round(Math.random())){
-      return "";
+      return "https://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/256/bad-pig-icon.png";
     } else {
-      return "";
+      return "https://icons.iconarchive.com/icons/chrisl21/minecraft/256/Tnt-icon.png";
     }
   }
   function dropBox(){
@@ -24,9 +24,9 @@ function setBG(){
      //set data and bg based on data
   thisBox.data("test", Math.round(Math.random()));
   if(thisBox.data("test")){
-    thisBox.css({"background": "url('')", "background-size":"contain"});
+    thisBox.css({"background": "url('https://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/256/bad-pig-icon.png')", "background-size":"contain"});
   } else {
-    thisBox.css({"background": "url('')", "background-size":"contain"});
+    thisBox.css({"background": "url('https://icons.iconarchive.com/icons/chrisl21/minecraft/256/Tnt-icon.png')", "background-size":"contain"});
   }
   //insert gift element
   $(".game").append(thisBox);
