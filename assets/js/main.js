@@ -35,3 +35,61 @@ function setBG(){
   setTimeout(function(){
     thisBox.addClass("move");
   }, random(0, 5000) );
+    //remove this object when animation is over
+    thisBox.one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
+    function(event) {
+$(this).remove();
+});
+}
+
+for (i = 0; i < 10; i++) { 
+dropBox();
+}
+
+$(document).on('click', '.box', function(){
+
+
+if($(this).data("test")){
+score += 1;
+} else {
+score -= 1;
+if(score==-3){
+return alert ("gmae end");
+
+
+}
+
+
+
+
+}
+
+$(".score").html(score);
+$(this).remove();
+});
+
+var runGame = setInterval(function(){
+      for (i = 0; i < 10; i++) { 
+        dropBox();
+      }  
+    }, 5000);
+
+function countdown() {
+var seconds = 1000;
+function tick() {
+  var counter = document.getElementById("counter");
+  seconds--;
+  counter.innerHTML = (seconds < 10 ? "0" : "")  + String(seconds) + "S";
+  if( seconds > 0  ) {
+      setTimeout(tick, 1000);
+      draw();
+         update();
+  } else {
+      alert("Game over");
+      clearInterval(runGame);
+  }
+}
+tick();
+}
+
+countdown();
