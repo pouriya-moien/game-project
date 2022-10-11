@@ -63,4 +63,17 @@
   width: 140px;
   margin-right: 60px;
   margin-top: 90px;
+  background-color: transparent;
+  border-color: var(--light-color);
+  color: var(--var-danger-color);
+}
+.btn:hover {
+  background-color: var(--light-color);
+  border-color: var(--var-danger-color);
+
+}
+.btn:active{
+  background-color: var(--light-color);
+  border-color: var(--var-danger-color);
+
 }
