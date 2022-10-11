@@ -28,3 +28,12 @@
   width: 100%;
   text-align: center;
 }
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -150px;
+  transition: transform 1.5s linear;
+  cursor: pointer;
+  z-index: 100;
+}
