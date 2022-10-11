@@ -19,3 +19,12 @@
   align-items: baseline;
   border-radius: 20px;
 }
+.score {
+  font-size: 500px;
+  z-index: 20;
+  font-family: arial;
+  color: #d7e4d9;
+  user-select: none;
+  width: 100%;
+  text-align: center;
+}
