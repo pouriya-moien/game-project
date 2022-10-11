@@ -5,12 +5,12 @@
   --var-danger-color:rgb(148, 31, 31);
 }
 .game {
-  background: #efefef;
+  background: var(--dark-color);
   width: 1000px;
   height: 1000px;
   position: relative;
   overflow: hidden;
-  border: 1px solid #070606;
+  border: 1px solid var(--dark-color);
   border-radius: 20px;
 }
 .panel {
@@ -19,7 +19,7 @@
   height: 1000px;
   position: relative;
   overflow: hidden;
-  border: 1px solid #070606;
+  border: 1px solid var(--dark-color);
   display: flex;
   justify-content:space-evenly;
   align-items: baseline;
@@ -29,7 +29,7 @@
   font-size: 500px;
   z-index: 20;
   font-family: arial;
-  color: #d7e4d9;
+  color: var(--dark-color);
   user-select: none;
   width: 100%;
   text-align: center;
@@ -51,7 +51,7 @@
   margin: 0 auto;
   text-align: center;
   font-family: arial;
-  color: red;
+  color: var(--var-danger-color);
   font-weight: bold;
   padding-top: 10px;
   font-size: 20px;
