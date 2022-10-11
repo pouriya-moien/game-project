@@ -52,7 +52,7 @@
   margin: 0 auto;
   text-align: center;
   font-family: arial;
-  color: var(--var-danger-color);
+  color: red;
   font-weight: bold;
   padding-top: 10px;
   font-size: 20px;
@@ -66,7 +66,7 @@
   margin-top: 90px;
   background-color: transparent;
   border-color: var(--light-color);
-  color: var(--var-danger-color);
+  color: red;
 }
 .btn:hover {
   background-color: var(--light-color);
