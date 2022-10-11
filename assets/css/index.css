@@ -29,7 +29,7 @@
   font-size: 500px;
   z-index: 20;
   font-family: arial;
-  color: var(--dark-color);
+  color: var(--light-color);
   user-select: none;
   width: 100%;
   text-align: center;
