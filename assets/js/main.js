@@ -28,3 +28,10 @@ function setBG(){
   } else {
     thisBox.css({"background": "url('')", "background-size":"contain"});
   }
+  //insert gift element
+  $(".game").append(thisBox);
+  
+  //random start for animation
+  setTimeout(function(){
+    thisBox.addClass("move");
+  }, random(0, 5000) );
