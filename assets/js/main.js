@@ -13,3 +13,12 @@ function setBG(){
       return "";
     }
   }
+  function dropBox(){
+    var length = random(100, ($(".game").width() - 90));
+    var velocity = random(900, 10000);
+    var size = random(150, 150);
+    var thisBox = $("<div/>", {
+      class: "box",
+      style:  "width:" +size+ "px; height:"+size+"px; left:" + length+  "px; transition: transform " +velocity+ "ms linear;"
+    });
+    
