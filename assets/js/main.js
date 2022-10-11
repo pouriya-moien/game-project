@@ -21,4 +21,10 @@ function setBG(){
       class: "box",
       style:  "width:" +size+ "px; height:"+size+"px; left:" + length+  "px; transition: transform " +velocity+ "ms linear;"
     });
-    
+     //set data and bg based on data
+  thisBox.data("test", Math.round(Math.random()));
+  if(thisBox.data("test")){
+    thisBox.css({"background": "url('')", "background-size":"contain"});
+  } else {
+    thisBox.css({"background": "url('')", "background-size":"contain"});
+  }
